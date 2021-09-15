@@ -53,6 +53,9 @@ Project Organization
     │   └── visualization  <- Scripts to create exploratory and results oriented visualizations (e.g. confusion matrix)
     │       └── visualize.py
     │
+    ├── production         <- Deployment code (flask/fastAPI app, GCP Vertex Model/Cloud Run endpoint etc.)
+    │   └── deploy.py
+    │
     └── tests              <- Testing data, code, outputs
         ├── data_validation
         │
